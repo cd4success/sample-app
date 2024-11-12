@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: production-container
-        image: <todo>
+        image: gcr.io/cloud-builders/kubectl
         ports:
         - containerPort: 8080
